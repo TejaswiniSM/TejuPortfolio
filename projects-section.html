@@ -1,0 +1,348 @@
+<!-- Projects Section - Copy this to replace your existing projects section -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Featured <span class="name-highlight">Projects</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Hover over projects and click "View Details" to explore</p>
+    <div class="projects-grid-overlay">
+      
+      <!-- Project 1 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&h=600&fit=crop&q=80" alt="Azure DevOps">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h4>Automated WAR Deployment to VMs</h4>
+          <p>Maven-based deployment automation with Azure DevOps</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal1')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&q=80" alt="Slot Management">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h4>Slot Management & Zero-Downtime</h4>
+          <p>B2C platform deployment slots for seamless releases</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal2')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&q=80" alt="Maven CI/CD">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h4>Maven Enterprise Application CI/CD</h4>
+          <p>Full-stack pipeline with Tomcat deployment</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal3')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="400">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop&q=80" alt="CMS Platform">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fas fa-edit"></i>
+          </div>
+          <h4>CMS Platform Deployment (Next.js)</h4>
+          <p>Automated CI/CD with custom domains and SSL</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal4')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="500">
+        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&h=600&fit=crop&q=80" alt="B2C Platform">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h4>DrillBit B2C Platform Deployment</h4>
+          <p>Complete CI/CD with monitoring integration</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal5')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-box" data-aos="zoom-in" data-aos-delay="600">
+        <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=600&fit=crop&q=80" alt="React Website">
+        <div class="project-overlay">
+          <div class="overlay-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h4>Static Website with React.js</h4>
+          <p>Global CDN deployment with Azure Static Web Apps</p>
+          <button class="btn-details" onclick="showProjectDetails(event, 'modal6')">
+            View Details <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modals for Project Details -->
+<!-- Modal 1 -->
+<div id="modal1" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal1')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fas fa-server"></i></div>
+      <h3>Automated WAR Deployment to VMs using Azure DevOps</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Sep 2025 - Present</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Designed deployment strategy for multiple virtual machines simultaneously</li>
+          <li>Implemented VM tagging for dynamic environment targeting</li>
+          <li>Automated WAR file distribution across development, staging, and production VMs</li>
+          <li>Created reusable deployment groups for scalable infrastructure management</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Configured Azure DevOps Deployment Groups with role-based VM targeting</li>
+          <li>Built YAML pipelines for automated build and artifact generation</li>
+          <li>Implemented health checks and deployment verification scripts</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>Azure DevOps</span>
+          <span>CI/CD Pipelines</span>
+          <span>Virtual Machines</span>
+          <span>Deployment Groups</span>
+          <span>YAML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal2')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fas fa-sync-alt"></i></div>
+      <h3>Azure DevOps – Application Deployment & Slot Management</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Aug 2025 - Oct 2025</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Achieved 100% uptime during deployments with slot swap technology</li>
+          <li>Created dual-artifact build system for production and maintenance modes</li>
+          <li>Reduced deployment risk with instant rollback capabilities</li>
+          <li>Eliminated manual intervention in production releases</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Developed CI YAML script generating two distinct build artifacts</li>
+          <li>Configured dual deployment tasks with dynamic pipeline variables</li>
+          <li>Implemented Azure Web Apps slot swap for environment transitions</li>
+          <li>Integrated flexible switching between production and maintenance modes</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>Azure Web Apps</span>
+          <span>YAML Scripting</span>
+          <span>Deployment Slots</span>
+          <span>Release Management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal3" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal3')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fas fa-rocket"></i></div>
+      <h3>CI/CD Pipeline for Maven-based Deployment to Azure VM</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Apr 2025 - May 2025</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Automated end-to-end deployment process from code commit to production</li>
+          <li>Implemented error handling and rollback safety mechanisms</li>
+          <li>Created live log monitoring for real-time deployment tracking</li>
+          <li>Documented complete setup in Azure Wiki for team knowledge sharing</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Built CI pipeline with YAML to compile, test, and generate WAR artifacts</li>
+          <li>Provisioned and configured Azure VM with Apache Tomcat via RDP</li>
+          <li>Created PowerShell scripts to manage Tomcat lifecycle during deployment</li>
+          <li>Integrated Deployment Groups for VM connectivity and task execution</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>Maven</span>
+          <span>Spring Boot</span>
+          <span>PowerShell</span>
+          <span>Tomcat</span>
+          <span>Azure VM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal4" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal4')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fas fa-edit"></i></div>
+      <h3>CMS Platform CI/CD using Azure Web App (Next.js)</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Feb 2025 - May 2025</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Built production-ready automated deployment pipeline for CMS application</li>
+          <li>Configured secure SSL/TLS with custom domain mapping</li>
+          <li>Implemented staging environment using deployment slots for testing</li>
+          <li>Maintained comprehensive documentation for debugging and reuse</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Created YAML CI pipeline running npx next build for production builds</li>
+          <li>Set up Azure Web App with Node.js runtime environment</li>
+          <li>Established secure Service Connection for automated deployments</li>
+          <li>Configured runtime environment variables and deployment slots</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>Next.js</span>
+          <span>Azure Web App</span>
+          <span>Node.js</span>
+          <span>SSL/TLS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div id="modal5" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal5')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fas fa-shopping-cart"></i></div>
+      <h3>B2C Web App CI/CD Deployment (Next.js)</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Dec 2024 - Feb 2025</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Delivered fully automated deployment for production B2C platform</li>
+          <li>Configured Node.js 20 LTS runtime for optimal performance</li>
+          <li>Implemented secure hosting with custom domain and SSL binding</li>
+          <li>Integrated Azure Monitoring for performance insights and cost tracking</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Authored CI YAML executing npx next build on every commit</li>
+          <li>Provisioned Azure Web App via portal with Node.js 20 LTS</li>
+          <li>Created secure Service Connection for continuous deployment</li>
+          <li>Managed environment variables using Azure DevOps Library</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>Next.js</span>
+          <span>Node.js 20 LTS</span>
+          <span>Azure Monitoring</span>
+          <span>Cost Management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div id="modal6" class="project-modal">
+  <div class="modal-content-box">
+    <span class="close-modal" onclick="closeProjectDetails('modal6')">&times;</span>
+    <div class="modal-header-box">
+      <div class="modal-icon"><i class="fab fa-react"></i></div>
+      <h3>Website Deployment using Azure Static Web Apps (React.js)</h3>
+      <p class="modal-date"><i class="fas fa-calendar"></i> Apr 2024 - May 2024</p>
+    </div>
+    <div class="modal-body-box">
+      <div class="modal-section">
+        <h4><i class="fas fa-bullseye"></i> Key Achievements</h4>
+        <ul>
+          <li>Achieved global content delivery with minimal latency</li>
+          <li>Configured automatic HTTPS for enhanced security</li>
+          <li>Implemented custom routing rules for SPA navigation</li>
+          <li>Set up performance monitoring with Azure tools</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-tools"></i> Technical Implementation</h4>
+        <ul>
+          <li>Created Azure Static Web App via portal</li>
+          <li>Built CI pipeline handling npx build and artifact storage</li>
+          <li>Configured CD pipeline to push artifacts to Azure</li>
+          <li>Set up environment variables, custom domain, and SSL</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4><i class="fas fa-code"></i> Technologies Used</h4>
+        <div class="modal-tags">
+          <span>React.js</span>
+          <span>Azure Static Web Apps</span>
+          <span>CDN</span>
+          <span>Custom Routing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
